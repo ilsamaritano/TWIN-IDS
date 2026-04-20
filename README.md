@@ -8,8 +8,6 @@ This repository provides an end-to-end implementation template for:
 - budget-aware sensor placement optimization
 - experiment pipelines aligned with research questions (RQ1-RQ4)
 
-The project is structured for high-level cybersecurity venues (ESORICS, CCS, USENIX Security, NDSS) and emphasizes reproducibility, clear experiment mapping, and modular design.
-
 ## Abstract
 
 TWIN-IDS models enterprise and industrial network twins as probabilistic attack surfaces and optimizes IDS placement under a fixed budget. The framework combines path-level risk estimation, noisy-OR style detection aggregation, and knapsack-based optimization to identify high-value sensor deployments. The code supports synthetic and anonymized real-like topologies, enabling controlled comparisons across cost-efficiency, scalability, and sensitivity analyses.
@@ -105,7 +103,6 @@ Use explicit seeds in scripts for deterministic re-runs.
 - For large datasets, store artifacts in Zenodo/Figshare and reference DOIs in this README.
 - The `data/` folder contains only sanitized and synthetic examples by default.
 
-
 ## Citation
 
 If accepted, include the final BibTeX cite here:
@@ -122,8 +119,3 @@ If accepted, include the final BibTeX cite here:
 ## License
 
 Distributed under the Apache-2.0 License. See `LICENSE`.
-
-## Contact
-
-During anonymous review: use the submission system discussion channel only.
-After acceptance: add project maintainer contact and issue templates.
