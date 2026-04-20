@@ -1,6 +1,6 @@
-# TWIN-IDS: Risk-Aware IDS Placement on Digital Twins
+# TWIN-IDS: Twin-driven IDS Placement for Cost-aware Detection
 
-A reproducible research codebase for evaluating **risk-aware intrusion detection system (IDS) sensor placement** on network digital twins.
+A reproducible research codebase for evaluating **risk-aware intrusion detection system (IDS) sensor placement** on security (network) digital twins.
 
 This repository provides an end-to-end implementation template for:
 - attack graph and probabilistic path modeling
@@ -105,25 +105,16 @@ Use explicit seeds in scripts for deterministic re-runs.
 - For large datasets, store artifacts in Zenodo/Figshare and reference DOIs in this README.
 - The `data/` folder contains only sanitized and synthetic examples by default.
 
-## Anonymous Submission Workflow
-
-For double-blind review submissions:
-- remove author names and affiliations from all files
-- strip identifying metadata from commits and notebooks
-- avoid links to personal profiles or institutional pages
-- share an anonymized archive via a neutral hosting channel when required by the CFP
-
-A practical checklist is provided in `docs/SUBMISSION_CHECKLIST.md`.
 
 ## Citation
 
-If accepted, include the final BibTeX entry here:
+If accepted, include the final BibTeX cite here:
 
 ```bibtex
 @inproceedings{twinids2026,
-  title={TWIN-IDS: Risk-Aware IDS Placement on Network Digital Twins},
-  author={Anonymous},
-  booktitle={Proceedings of ...},
+  title={TWIN-IDS: Twin-driven IDS Placement for Cost-aware Detection},
+  author={Sammartino, V. and Baiardi, F. and Ruggieri, S.},
+  booktitle={Proceedings of the 31st European Symposium on Research in Computer Security (ESORICS) 2026},
   year={2026}
 }
 ```
