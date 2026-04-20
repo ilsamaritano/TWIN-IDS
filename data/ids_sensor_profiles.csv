@@ -1,0 +1,8 @@
+node_id,sensor_family,sensor_cost,tp_rate,fp_rate
+n3,network-nids,450,0.91,0.04
+n6,network-nids,420,0.88,0.05
+n9,host-hids,300,0.84,0.06
+n12,host-hids,280,0.82,0.07
+n18,ics-anomaly,600,0.92,0.03
+n22,ics-anomaly,640,0.94,0.03
+n27,hybrid,520,0.89,0.05
